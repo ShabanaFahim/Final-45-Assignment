@@ -1,0 +1,10 @@
+//Question 44
+//array of items a person wants on a sandwich.
+function make_sandwich(...items) {
+    console.log(`Making a sandwich with: ${items.join(', ')}.`);
+}
+// // Call the function three times with different numbers of arguments
+make_sandwich("ham", "cheese");
+make_sandwich("turkey", "lettuce", "tomato");
+make_sandwich("avocado", "sprouts", "mustard", "mayo");
+export {};
